@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'ChaletComprime';
+    src: url('../font/ChaletComprime.ttf');
+}
+
+/* o ".." é um comando que sai da pasta css e busca no inicio das pastas*/

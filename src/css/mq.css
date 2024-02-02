@@ -1,0 +1,105 @@
+/*media queries (adaptar a pagina a diferentes tamanhos de telas e dispositivos usando css)*/
+
+@media (max-width:1024px) {
+
+  .cabecalho {
+    flex-direction: column;
+    height: 140px;
+    justify-content: center;
+    gap: 25px;
+    border-bottom: 13px solid #000;
+  }
+
+  .cabecalho .logo {
+    padding-top:20px;
+  }
+
+  .cabecalho .menu li a {
+
+    padding: 23px;
+  }
+
+  .cabecalho .menu li a:hover {
+    border-bottom: 4px solid #fff;  
+}
+
+.home .informacoes {
+  padding: 30px;
+}
+
+.home .informacoes {
+  justify-content: center;
+}
+
+.compre-ja .cartao {
+  width: 100%;
+  flex-direction: row;
+
+}
+
+.compre-ja .cartao:nth-child(2) {
+  flex-direction: column;
+}
+
+
+}
+
+
+
+@media (max-width:768px) {
+  .cabecalho {
+    flex-direction: column;
+    height: 140px;
+    justify-content: center;
+    gap: 25px;
+    border-bottom: 10px solid #000;
+    padding: 20px;
+  }
+
+  .btn-plataformas {
+    font-size: 21px;
+  }
+}
+
+
+
+@media (max-width:425px) {
+  .cabecalho nav  .menu li a {
+    font-size: 15px;
+    padding: 15px;
+    
+  }
+  .lista-de-jogos {
+    width: 180px;
+  }
+
+  .home .informacoes {
+    max-width: 350px;
+  }
+
+.home .informacoes h1 {
+  padding: 20px 0px 20px 0px;
+  font-size: 30px;
+}
+
+.compre-ja .titulo {
+  font-size: 30px;
+}
+
+.cartao .capa-do-jogo {
+  width: 200px;
+}
+
+.compre-ja .cartao .informacoes h3 {
+  font-size: 30px;
+}
+
+.compre-ja .cartao .informacoes p {
+  font-size: 10px;
+}
+
+.btn-plataformas {
+  width: 100%;
+}
+}
+
